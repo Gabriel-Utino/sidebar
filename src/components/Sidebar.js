@@ -7,7 +7,7 @@ function Sidebar() {
         <ul className='SidebarList'>
             {SidebarData.map((value, key) => {
                 return(
-                    <li key={key} c???????????>
+                    <li key={key} >
                         <div id='icon'>{value.icon}</div>
                         <div id='icon'>{value.title}</div>
                     </li>
@@ -18,4 +18,4 @@ function Sidebar() {
   )
 }
 
-export default Sidebar
+export default Sidebar;
